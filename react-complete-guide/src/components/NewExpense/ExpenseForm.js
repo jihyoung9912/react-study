@@ -47,7 +47,7 @@ const ExpenseForm = (props) => {
     // submit 누르면 enterdData에 입력된 값들을 저장
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
     // NewExpense에서 정의한 saveExpenseDataHandler함수를 ExpenseForm 컴포넌트에서 실행하는 것
