@@ -1,5 +1,5 @@
 export const theme = {
-  bgColor: 'white',
-  textColor: 'black',
-  btnColor: 'tomato',
+  bgColor: '#2f3640',
+  textColor: '#f5f6fa',
+  accentColor: '#4cd137',
 };
