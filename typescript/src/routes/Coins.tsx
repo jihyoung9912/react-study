@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { useQuery } from '@tanstack/react-query';
 import { fetchCoins } from './api';
 import { Helmet } from 'react-helmet-async';
+import { useSetRecoilState } from 'recoil';
+import { isDarkAtom } from '../atoms';
 
 const Container = styled.div`
   padding: 0 20px;
@@ -78,6 +80,7 @@ const Coins = () => {
 
   //data에는 fetchCoins로 불러온 json data
   const { isLoading, data } = useQuery<ICoin[]>(['allCoins'], fetchCoins);
+  const setDarkAtom = useSetRecoilState(isDarkAtom);
 
   return (
     <Container>
@@ -86,6 +89,7 @@ const Coins = () => {
       </Helmet>
       <Header>
         <Title>Coins</Title>
+        <button onClick={() => setDarkAtom((prev) => !prev)}>Toggle Mode</button>
       </Header>
       {isLoading ? (
         <Loader>Loading...</Loader>
