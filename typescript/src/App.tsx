@@ -1,5 +1,7 @@
 import Router from './Router';
 import { createGlobalStyle } from 'styled-components';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
@@ -70,7 +72,10 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Router />
+      <HelmetProvider>
+        <Router />
+      </HelmetProvider>
+      <ReactQueryDevtools initialIsOpen={true} />
     </>
   );
 };
