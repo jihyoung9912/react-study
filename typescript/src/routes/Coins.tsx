@@ -81,6 +81,7 @@ const Coins = () => {
   //data에는 fetchCoins로 불러온 json data
   const { isLoading, data } = useQuery<ICoin[]>(['allCoins'], fetchCoins);
   const setDarkAtom = useSetRecoilState(isDarkAtom);
+  const toggleDarkAtom = () => setDarkAtom((prev) => !prev);
 
   return (
     <Container>
@@ -89,7 +90,7 @@ const Coins = () => {
       </Helmet>
       <Header>
         <Title>Coins</Title>
-        <button onClick={() => setDarkAtom((prev) => !prev)}>Toggle Mode</button>
+        <button onClick={toggleDarkAtom}>Toggle Mode</button>
       </Header>
       {isLoading ? (
         <Loader>Loading...</Loader>
