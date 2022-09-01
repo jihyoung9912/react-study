@@ -39,6 +39,7 @@ function ToDoList() {
           placeholder="Write a to do"
         />
         <button>Add</button>
+        <button>Add</button>
       </form>
       <ul>
         {toDos.map((toDo) => (
