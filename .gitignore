@@ -1,3 +1,4 @@
 .idea/
 /Styled-Components/node_modules/
 .eslintcache
+node_modules/
