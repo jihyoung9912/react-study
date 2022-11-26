@@ -10,6 +10,10 @@ const Login = (props) => {
   const [enteredPassword, setEnteredPassword] = useState('');
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
+  const { someProperty } = someObject;
+  useEffect(() => {
+    // code that only uses someProperty ...
+  }, [someProperty]);
 
   useEffect(() => {
     const identifier = setTimeout(() => {
