@@ -10,21 +10,17 @@ const Login = (props) => {
   const [enteredPassword, setEnteredPassword] = useState('');
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
-  const { someProperty } = someObject;
-  useEffect(() => {
-    // code that only uses someProperty ...
-  }, [someProperty]);
 
-  useEffect(() => {
-    const identifier = setTimeout(() => {
-      setFormIsValid(
-        enteredEmail.includes('@') && enteredPassword.trim().length > 6
-      );
-    }, 400)
-    return () => {
-      clearTimeout(identifier)
-    }
-  }, [enteredEmail, enteredPassword])
+  // useEffect(() => {
+  //   const identifier = setTimeout(() => {
+  //     setFormIsValid(
+  //       enteredEmail.includes('@') && enteredPassword.trim().length > 6
+  //     );
+  //   }, 400)
+  //   return () => {
+  //     clearTimeout(identifier)
+  //   }
+  // }, [enteredEmail, enteredPassword])
 
   const emailChangeHandler = (event) => {
     setEnteredEmail(event.target.value)
