@@ -27,6 +27,7 @@ const CounterContainer = () => {
     <>
       <Navbar count={count} />
       <Button
+        count={count}
         onIncrease={onIncrease}
         onDecrease={onDecrease}
         onIncreaseBy={onIncreaseBy}
