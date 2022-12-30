@@ -125,6 +125,7 @@ export default function PrimazxrySearchAppBar({ count }: CounterProps) {
               size="large"
               aria-label="show 4 new mails"
               color="inherit"
+              onClick={handleProfileMenuOpen}
             >
               <Badge badgeContent={count} color="error">
                 <MailIcon />
