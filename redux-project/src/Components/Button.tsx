@@ -22,7 +22,7 @@ export default function BasicButtons({
           alignItems: "center",
         }}
       >
-        <Stack spacing={2} direction="row">
+        <Stack spacing={4} direction="row">
           <Button variant="contained" onClick={onIncrease}>
             Message+
           </Button>
