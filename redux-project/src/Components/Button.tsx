@@ -1,19 +1,24 @@
 import * as React from "react";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../modules";
+import { decrease, increase } from "../modules/counter";
 
-type CounterProps = {
-  count: number;
-  onIncrease: () => void;
-  onDecrease: () => void;
-  onIncreaseBy: (diff: number) => void;
-};
+const BasicButtons = () => {
+  //상태 조회. state 의 상태는 index 에서 선언한 RootState
+  const count = useSelector((state: RootState) => state.counter.count);
+  // Dispatch 함수 가져오기
+  const dispatch = useDispatch();
 
-export default function BasicButtons({
-  count,
-  onIncrease,
-  onDecrease,
-}: CounterProps) {
+  const onIncrease = () => {
+    dispatch(increase());
+  };
+
+  const onDecrease = () => {
+    dispatch(decrease());
+  };
+
   return (
     <div style={{ height: "90vh", display: "flex", justifyContent: "center" }}>
       <div
@@ -35,4 +40,6 @@ export default function BasicButtons({
       </div>
     </div>
   );
-}
+};
+
+export default BasicButtons;

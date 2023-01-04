@@ -1,8 +1,14 @@
 import React from "react";
-import CounterContainer from "./containers/CounterContainer";
+import Navbar from "./Components/Navbar";
+import BasicButtons from "./Components/Button";
 
 const App = () => {
-  return <CounterContainer />;
+  return (
+    <>
+      <Navbar />
+      <BasicButtons />
+    </>
+  );
 };
 
 export default App;

@@ -10,10 +10,8 @@ import Badge from "@mui/material/Badge";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import MailIcon from "@mui/icons-material/Mail";
-
-type CounterProps = {
-  count: number;
-};
+import { useSelector } from "react-redux";
+import { RootState } from "../modules";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -55,7 +53,9 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function PrimazxrySearchAppBar({ count }: CounterProps) {
+const Navbar = () => {
+  const count = useSelector((state: RootState) => state.counter.count);
+
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] =
     React.useState<null | HTMLElement>(null);
@@ -134,4 +134,6 @@ export default function PrimazxrySearchAppBar({ count }: CounterProps) {
       {renderMenu}
     </Box>
   );
-}
+};
+
+export default Navbar;
