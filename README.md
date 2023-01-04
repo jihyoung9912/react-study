@@ -8,4 +8,4 @@
     - 규모가 커질수록 느린 속도 —> Virtual DoM을 통해 해결
     
     
-    [Virtual DOM](https://github.com/jihyoung9912/react-study/tree/main/redux-project#readme)
+    [Virtual DOM](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/Virtual_DOM.md)
