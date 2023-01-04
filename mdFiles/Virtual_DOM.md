@@ -1,6 +1,6 @@
 # Virtual DOM
 
-[DOM](https://www.notion.so/DOM-96fadc1e6c8c46eb8107a1ea5d07a548)
+[DOM](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/DOM.md)
 
 가상의 DOM.
 
