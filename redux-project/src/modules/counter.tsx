@@ -24,16 +24,8 @@ type CounterState = {
   count: number;
 };
 
-type PharseState = {
-  pharse: string;
-};
-
 const countInitialState: CounterState = {
   count: 0,
-};
-
-const pharseInitialState: PharseState = {
-  pharse: "Alarm",
 };
 
 function counter(
