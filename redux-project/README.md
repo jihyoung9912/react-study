@@ -84,4 +84,4 @@ view와 model 사이 state 전이를 간편화해주고 기존 흐름에 파악�
     - BoilerPlate가 큼
     
 
-[Redux Toolkit](https://www.notion.so/Redux-Toolkit-6e4c21fb61684472a93177c1480c7c0b)
+[Redux Toolkit](https://github.com/jihyoung9912/react-study/blob/main/redux-project/ReduxToolKit.md)
