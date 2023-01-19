@@ -11,9 +11,9 @@
     에서 토큰은 public, static, voidm main, (, String, [, ], args, ), { ... 등이며 이러한 토큰을 제외한 공백문자(스페이스, 탭문자, 개행문자 등)는 문자열 내에서 사용되는 경우가 아닌 이상은 모두 아무런 의미를 가지지 않는다
     
     - parse tree? 어떤 문장을 트리 구조로 나타낸 것
-    
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/55369a0d-c9f0-46f1-8234-1e6e096ed9af/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230104T015439Z&X-Amz-Expires=86400&X-Amz-Signature=376f2c80f2aaa9cca11432b39a762cad9bc2d3262a213f5df14a3f3616425115&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
-    
+
+
+    ![image](https://user-images.githubusercontent.com/102154146/213399331-9b9170b8-f554-41dc-84e4-44aab6f96a97.png)
 - Parser란 Parsing을 하는 Processor
 - Parser는 수작업으로 프로그래밍되며 도구에 의해 자동적으로 만들어질 수 있음.
 - Parser는 Compiler의 일부
