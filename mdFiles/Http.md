@@ -18,7 +18,7 @@ Hyper Text Transfer Protocol
 
 - HTTP는 암호화가 되지 않은 평문 데이터를 전송하는 프로토콜 정보 보안의 문제, 해결 위해 HTTPS
     
-    [HTTPS](https://www.notion.so/HTTPS-609d3bb32b2b4713a447413b9a4b07e7)
+    [HTTPS](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/Https.md)
     
 - HTTP 동작과정
     1. 사용자가 웹 브라우저에 URL 주소 입력
