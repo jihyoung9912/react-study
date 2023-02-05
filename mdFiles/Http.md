@@ -11,7 +11,7 @@ Hyper Text Transfer Protocol
 - 클라이언트가 브라우저를 통해 어떠한 서비스를 URL을 통해 요청하면 서버에서는 해당 요청에 대한 결과를 응답하며 동작함.
 - Stateless 프로토콜이며 Method, Path, Version, Headers, Body 등으로 구성됨.
     
-    [HTTP 메세지](https://www.notion.so/HTTP-df4f89ba7f064ffd90398cc7c916ff8d)
+    [HTTP 메세지](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/Http_Message.md)
     
 
 ![image](https://user-images.githubusercontent.com/102154146/215053060-a4284b1a-0fc5-47ea-9ca1-d11ecfb0aea8.png)
