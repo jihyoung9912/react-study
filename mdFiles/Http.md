@@ -29,6 +29,6 @@ Hyper Text Transfer Protocol
     6. 서버 클라이언트간 연결 종료 (Stateless)
     7. 웹 브라우저가 웹 문서 출력
 
-[CORS](https://www.notion.so/CORS-cbf3b6fa3b974990a3ed3f70872e8b0f)
+[CORS](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/CORS.md)
 
 [HTTP ONLY](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/HTTP_Only.md)
