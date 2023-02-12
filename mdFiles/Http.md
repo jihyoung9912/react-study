@@ -31,4 +31,4 @@ Hyper Text Transfer Protocol
 
 [CORS](https://www.notion.so/CORS-cbf3b6fa3b974990a3ed3f70872e8b0f)
 
-[HTTP ONLY](https://www.notion.so/HTTP-ONLY-f8e4bc19bb2e4711a9fb96f194a3b494)
+[HTTP ONLY](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/HTTP_Only.md)
