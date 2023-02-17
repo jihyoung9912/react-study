@@ -11,7 +11,7 @@
 - 시작줄, 헤더, 본문으로 구성됨.
 - GET —> Request Method
     
-    [Request Method](https://www.notion.so/Request-Method-20b434f41ee046f3bb008cf32e47e35a)
+    [Request Method](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/Request_Method.md)
     
 
 [Status Code](https://www.notion.so/Status-Code-eca3ceb9e56e459da325b67931f0cbf2)
