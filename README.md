@@ -9,3 +9,4 @@
     
     
     [Virtual DOM](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/Virtual_DOM.md)
+    [Redux](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/Virtual_DOM.md)
