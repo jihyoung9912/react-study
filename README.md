@@ -6,6 +6,7 @@
     - 리액트는 이와 다름. 어떤 상태가 바뀌었을때, 상태에 따라 DOM을 어떻게 업데이트 할지가 아니라 아예 다 날려버리고 처음부터 모든걸 새로 보여준다! (View → new View)
     - 업데이트를 어떻게? 고민이 없어져 비교적 쉬운 장점, 느린 속도란 단점
     - 규모가 커질수록 느린 속도 —> Virtual DoM을 통해 해결
+    - useEffect의 Side Effect
     
     
     [Virtual DOM](https://github.com/jihyoung9912/react-study/blob/main/mdFiles/Virtual_DOM.md)
